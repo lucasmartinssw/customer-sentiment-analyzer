@@ -47,22 +47,23 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
 
-1. Crie e Ative um Ambiente Virtual (venv)
-
+2. Crie e Ative um Ambiente Virtual (venv)
 É uma boa prática usar um ambiente virtual para isolar as dependências do projeto.
 
 No Windows:
 
+```bash
 python -m venv venv
 
 .\venv\Scripts\activate
+```
 
 No macOS e Linux:
-
+```bash
 python3 -m venv venv
 
 source venv/bin/activate
-
+```
 Após a ativação, você verá (venv) no início do seu terminal.
 
 1. Crie o arquivo requirements.txt
