@@ -1,54 +1,51 @@
-🤖 Analisador de Sentimentos Multi-fonte
+# 🤖 Analisador de Sentimentos Multi-fonte
 
-Este é um aplicativo web construído com Streamlit e Python que realiza análise de sentimentos em textos coletados de diferentes fontes. A análise é feita utilizando um modelo de Hugging Face Transformers pré-treinado para análise de sentimentos multilíngue.
+Este é um aplicativo web construído com **Streamlit** e **Python** que realiza análise de sentimentos em textos coletados de diferentes fontes.  
+A análise é feita utilizando um modelo do **Hugging Face Transformers** pré-treinado para análise de sentimentos multilíngue.
 
+## 📊 Modos de Análise
 Atualmente, a aplicação suporta a análise de dados de duas maneiras:
 
-Via URL: Coleta e analisa reviews de páginas de produtos do Mercado Livre ou páginas de empresas do Reclame Aqui.
+- **Via URL**: Coleta e analisa reviews de páginas de produtos do **Mercado Livre** ou páginas de empresas do **Reclame Aqui**.
+- **Via Arquivo CSV**: Permite o upload de um arquivo `.csv`, onde o usuário pode selecionar a coluna contendo os textos para análise.
 
-Via Arquivo CSV: Permite o upload de um arquivo .csv, onde o usuário pode selecionar a coluna contendo os textos para análise.
+---
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-Dashboard Interativo: Visualização dos dados com gráficos de pizza e barras gerados com Plotly.
+- **Dashboard Interativo**: Visualização dos dados com gráficos de pizza e barras gerados com **Plotly**.
+- **Análise de Múltiplas Fontes**: Suporte para URLs do Mercado Livre, Reclame Aqui e upload de arquivos CSV.
+- **Modelo de IA**: Utiliza o modelo `nlptown/bert-base-multilingual-uncased-sentiment` para classificar textos como positivos, negativos ou neutros.
+- **Cache Inteligente**: Otimiza o desempenho e o uso de recursos, armazenando em cache o modelo de IA e os dados coletados de URLs.
+- **Interface Amigável**: Interface limpa e intuitiva, organizada em abas para cada tipo de análise.
 
-Análise de Múltiplas Fontes: Suporte para URLs do Mercado Livre, Reclame Aqui e upload de arquivos CSV.
+---
 
-Modelo de IA: Utiliza o modelo nlptown/bert-base-multilingual-uncased-sentiment para classificar textos como positivos, negativos ou neutros.
+## 🛠️ Tecnologias Utilizadas
 
-Cache Inteligente: Otimiza o desempenho e o uso de recursos, armazenando em cache o modelo de IA e os dados coletados de URLs.
+- **Python 3.8+**
+- **Streamlit**: Para a criação da interface web.
+- **Pandas**: Para manipulação e estruturação dos dados.
+- **Plotly Express**: Para a criação dos gráficos interativos.
+- **Hugging Face Transformers**: Para carregar e utilizar o modelo de análise de sentimentos.
+- **PyTorch** ou **TensorFlow**: Como backend para o modelo da Hugging Face.
+- **Beautiful Soup 4** e **Requests**: Para web scraping da página do Reclame Aqui.
 
-Interface Amigável: Interface limpa e intuitiva, organizada em abas para cada tipo de análise.
+---
 
-🛠️ Tecnologias Utilizadas
+## 📋 Pré-requisitos
 
-Python 3.8+
+Antes de começar, certifique-se de que você tem o **Python 3.8 ou superior** instalado em sua máquina.
 
-Streamlit: Para a criação da interface web.
+---
 
-Pandas: Para manipulação e estruturação dos dados.
+## ⚙️ Configuração e Instalação
 
-Plotly Express: Para a criação dos gráficos interativos.
-
-Hugging Face Transformers: Para carregar e utilizar o modelo de análise de sentimentos.
-
-PyTorch ou TensorFlow: Como backend para o modelo da Hugging Face.
-
-Beautiful Soup 4 e Requests: Para web scraping da página do Reclame Aqui.
-
-📋 Pré-requisitos
-
-Antes de começar, certifique-se de que você tem o Python 3.8 ou superior instalado em sua máquina.
-
-⚙️ Configuração e Instalação
-
-Siga os passos abaixo para configurar o ambiente e executar o projeto localmente.
-
-1. Clone o Repositório
-
+### 1. Clone o Repositório
+```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-
 cd seu-repositorio
+```
 
 1. Crie e Ative um Ambiente Virtual (venv)
 
