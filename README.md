@@ -47,7 +47,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
 
-2. Crie e Ative um Ambiente Virtual (venv)
+### 2. Crie e Ative um Ambiente Virtual (venv)
 É uma boa prática usar um ambiente virtual para isolar as dependências do projeto.
 
 No Windows:
@@ -66,10 +66,11 @@ source venv/bin/activate
 ```
 Após a ativação, você verá (venv) no início do seu terminal.
 
-1. Crie o arquivo requirements.txt
+### 3. Crie o arquivo requirements.txt
+Este arquivo lista todas as bibliotecas Python que o projeto precisa.
+Crie um arquivo chamado requirements.txt na raiz do seu projeto com o seguinte conteúdo:
 
-Este arquivo lista todas as bibliotecas Python que o projeto precisa. Crie um arquivo chamado requirements.txt na raiz do seu projeto com o seguinte conteúdo:
-
+```shell
 streamlit
 
 pandas
@@ -85,13 +86,13 @@ transformers
 torch
 
 \# ou tensorflow, dependendo do backend que preferir
+```
 
-1. Instale as Dependências
-
-Com o ambiente virtual ativado, instale todas as bibliotecas listadas no requirements.txt:
-
+### 4. Instale as Dependências
+Com o ambiente virtual ativado, instale todas as bibliotecas listadas no `requirements.txt`:
+```bash
 pip install -r requirements.txt
-
+```
 🔑 Configuração Adicional (Mercado Livre)
 
 Para analisar produtos do Mercado Livre, você precisará de um Access Token.
