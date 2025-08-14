@@ -93,46 +93,47 @@ Com o ambiente virtual ativado, instale todas as bibliotecas listadas no `requir
 ```bash
 pip install -r requirements.txt
 ```
-🔑 Configuração Adicional (Mercado Livre)
+
+### 🔑 Configuração Adicional (Mercado Livre)
 
 Para analisar produtos do Mercado Livre, você precisará de um Access Token.
 
-Crie uma aplicação no site de desenvolvedores do Mercado Livre.
+1. Crie uma aplicação no site de desenvolvedores do Mercado Livre.
 
-Após criar a aplicação, você terá acesso ao seu Access Token.
+2. Após criar a aplicação, você terá acesso ao seu Access Token.
 
-Este token deverá ser inserido no campo correspondente na interface do aplicativo ao analisar uma URL do Mercado Livre.
+3. Este token deverá ser inserido no campo correspondente na interface do aplicativo ao analisar uma URL do Mercado Livre.
 
-▶️ Como Executar a Aplicação
+### ▶️ Como Executar a Aplicação
 
 Com o ambiente virtual ativado e as dependências instaladas, execute o seguinte comando no seu terminal:
-
+```bash
 streamlit run seu\_arquivo\_principal.py
-
-Substitua seu\_arquivo\_principal.py pelo nome do seu script Python (ex: app.py).
+```
+Substitua `seu\_arquivo\_principal.py` pelo nome do seu script Python (ex: `app.py`).
 
 A aplicação será aberta automaticamente no seu navegador padrão.
 
-📖 Como Usar
+### 📖 Como Usar
 
 Análise por URL
 
-Selecione a aba "Analisar por URL".
+1. Selecione a aba "Analisar por URL".
 
-Cole a URL de uma página de empresa do Reclame Aqui ou de um produto do Mercado Livre.
+2. Cole a URL de uma página de empresa do Reclame Aqui ou de um produto do Mercado Livre.
 
-Se for uma URL do Mercado Livre, preencha o campo do Access Token.
+3. Se for uma URL do Mercado Livre, preencha o campo do Access Token.
 
-Clique em "Analisar URL!" e aguarde o resultado.
+4. Clique em "Analisar URL!" e aguarde o resultado.
 
-Análise por Arquivo CSV
+### Análise por Arquivo CSV
 
-Selecione a aba "Analisar por Arquivo CSV".
+1. Selecione a aba "Analisar por Arquivo CSV".
 
-Clique em "Escolha um arquivo CSV" para fazer o upload do seu arquivo.
+2. Clique em "Escolha um arquivo CSV" para fazer o upload do seu arquivo.
 
-Selecione o separador de colunas correto (, ou ;). Uma pré-visualização será exibida.
+3. Selecione o separador de colunas correto (, ou ;). Uma pré-visualização será exibida.
 
-Selecione a coluna que contém os textos a serem analisados.
+4. Selecione a coluna que contém os textos a serem analisados.
 
-Clique em "Analisar Arquivo CSV" e aguarde o dashboard ser gerado.
+5. Clique em "Analisar Arquivo CSV" e aguarde o dashboard ser gerado.
