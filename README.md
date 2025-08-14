@@ -137,3 +137,16 @@ Análise por URL
 4. Selecione a coluna que contém os textos a serem analisados.
 
 5. Clique em "Analisar Arquivo CSV" e aguarde o dashboard ser gerado.
+
+
+### 🌐 Acesse o Aplicativo Online
+
+O **Analisador de Sentimentos Multi-fonte** já está disponível para uso direto no seu navegador, sem precisar instalar nada localmente.
+
+---
+
+## 🚀 Link de Acesso
+
+🔗 **[Clique aqui para abrir o aplicativo](https://customer-sentiment-analyzer-lucasmartinssw.streamlit.app/)**
+
+---
